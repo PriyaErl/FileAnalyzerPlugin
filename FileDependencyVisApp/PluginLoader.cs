@@ -13,7 +13,7 @@ namespace FileDependencyVisApp
     internal class PluginLoader
     {
         //The folder name which contains the plugin DLLs
-        public const string FolderName = "E:\\DependencyVisualizer\\PluginsFolder";
+        public const string FolderName = "C:\\PluginsFolder";
         
         public static List<IPluginBase> Plugins { get; set; }
 
